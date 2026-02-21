@@ -1469,7 +1469,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-	.button-large {
+	.button-large-new {
 		/* Background: Baby Blue, Text: Light Green */
 		background-color: #89CFF0; 
 		color: #90EE90;
@@ -1493,7 +1493,7 @@ input, select, textarea {
 		transition: all 0.3s ease;
 	}
 
-		.button-large:hover {
+		.button-large-new:hover {
 			/* Swap: Background: Light Green, Text: Baby Blue */
 			background-color: #90EE90;
 			color: #89CFF0;
@@ -1501,7 +1501,7 @@ input, select, textarea {
 						3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		}
 
-		.button-large:active {
+		.button-large-new:active {
 			background-color: #78b8d6; /* Slightly darker baby blue for click feel */
 			color: #90EE90;
 		}
