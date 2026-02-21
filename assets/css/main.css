@@ -118,6 +118,25 @@ input, select, textarea {
 	}
 
 /* Container */
+/* Logo Image Styling */
+	.logo-img {
+    	max-height: 80px;    /* Adjust height to fit your header */
+    	width: auto;         /* Maintains aspect ratio */
+    	display: block;
+    	margin-bottom: 10px;
+    	transition: transform 0.3s ease;
+	}
+
+	#logo:hover .logo-img {
+    	transform: scale(1.02); /* Subtle pop on hover */
+	}
+
+/* Ensure the H1 doesn't add weird spacing */
+	h1 #logo {
+    	display: inline-block;
+    	border: none;
+    	padding: 0;
+	}
 
 	.container {
 		margin: 0 auto;
