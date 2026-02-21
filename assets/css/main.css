@@ -1471,37 +1471,40 @@ input, select, textarea {
 		}
 
 	.button-large {
-    /* Colors from Business Card */
-    background-color: #E85C33; /* The exact Orange-Red from your card */
+    /* Colors: Updated to Baby Blue */
+    background-color: #89CFF0; /* Classic Baby Blue */
     color: #ffffff;            /* White text for high contrast */
     
     /* Standout Design */
     display: inline-block;
-    padding: 25px 50px;        /* Much bigger padding */
-    font-family: 'Roboto', sans-serif; /* Cleaner, bolder font */
-    font-size: 2em;            /* Larger text size */
-    font-weight: 700;          /* Bold weight */
+    padding: 25px 50px;        /* Large padding */
+    font-family: 'Roboto', sans-serif; 
+    font-size: 2em;            
+    font-weight: 700;          
     text-decoration: none;
-    border-radius: 50px;       /* Pill-shaped modern look */
+    border-radius: 50px;       /* Modern pill shape */
     
     /* Standout Effects */
-    box-shadow: 0 0 20px rgba(232, 92, 51, 0.4); /* Subtle orange glow */
-    text-transform: uppercase;  /* Makes it look more like an 'Action' button */
+    /* Subtle blue glow */
+    box-shadow: 0 0 20px rgba(137, 207, 240, 0.4); 
+    text-transform: uppercase;  
     letter-spacing: 1px;
     transition: all 0.3s ease;
     border: none;
     outline: 0;
-}
+	}
 
-.button-large:hover {
-    background-color: #cf4b26; /* Slightly darker on hover */
-    box-shadow: 0 0 30px rgba(232, 92, 51, 0.7); /* Brighter glow on hover */
-    transform: scale(1.05);    /* Grows slightly when hovered */
-}
+	.button-large:hover {
+    	background-color: #77bedf; /* Slightly deeper blue on hover */
+    	/* Brighter blue glow on hover */
+    	box-shadow: 0 0 30px rgba(137, 207, 240, 0.7); 
+    	transform: scale(1.05);    /* Grows slightly when hovered */
+    	cursor: pointer;
+	}
 
-.button-large:active {
-    transform: scale(0.98);    /* Sinks slightly when clicked */
-}
+	.button-large:active {
+    	transform: scale(0.98);    /* Sinks slightly when clicked */
+	}
 /* Header */
 
 	#header {
