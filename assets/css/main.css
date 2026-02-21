@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 /*
 	Halcyonic by HTML5 UP
@@ -1469,43 +1470,38 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.button-large {
-		background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
-		background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
-		background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
-		background-image: linear-gradient(top, #ed391b, #ce1a00);
-		display: inline-block;
-		background-color: #ed391b;
-		color: #fff;
-		text-decoration: none;
-		font-size: 1.75em;
-		height: 2em;
-		line-height: 2.125em;
-		font-weight: 300;
-		padding: 0 45px;
-		outline: 0;
-		border-radius: 10px;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
-	}
+	.button-large {
+    /* Colors from Business Card */
+    background-color: #E85C33; /* The exact Orange-Red from your card */
+    color: #ffffff;            /* White text for high contrast */
+    
+    /* Standout Design */
+    display: inline-block;
+    padding: 25px 50px;        /* Much bigger padding */
+    font-family: 'Roboto', sans-serif; /* Cleaner, bolder font */
+    font-size: 2em;            /* Larger text size */
+    font-weight: 700;          /* Bold weight */
+    text-decoration: none;
+    border-radius: 50px;       /* Pill-shaped modern look */
+    
+    /* Standout Effects */
+    box-shadow: 0 0 20px rgba(232, 92, 51, 0.4); /* Subtle orange glow */
+    text-transform: uppercase;  /* Makes it look more like an 'Action' button */
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: none;
+    outline: 0;
+}
 
-		.button-large:hover {
-			background-image: -moz-linear-gradient(top, #fd492b, #de2a10);
-			background-image: -webkit-linear-gradient(top, #fd492b, #de2a10);
-			background-image: -ms-linear-gradient(top, #fd492b, #de2a10);
-			background-image: linear-gradient(top, #fd492b, #de2a10);
-			background-color: #fd492b;
-			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
-		}
+.button-large:hover {
+    background-color: #cf4b26; /* Slightly darker on hover */
+    box-shadow: 0 0 30px rgba(232, 92, 51, 0.7); /* Brighter glow on hover */
+    transform: scale(1.05);    /* Grows slightly when hovered */
+}
 
-		.button-large:active {
-			background-image: -moz-linear-gradient(top, #ce1a00, #ed391b);
-			background-image: -webkit-linear-gradient(top, #ce1a00, #ed391b);
-			background-image: -ms-linear-gradient(top, #ce1a00, #ed391b);
-			background-image: linear-gradient(top, #ce1a00, #ed391b);
-			background-color: #ce1a00;
-			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
-		}
+.button-large:active {
+    transform: scale(0.98);    /* Sinks slightly when clicked */
+}
 /* Header */
 
 	#header {
