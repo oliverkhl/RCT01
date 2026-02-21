@@ -131,10 +131,24 @@ input, select, textarea {
     	transform: scale(1.02); /* Subtle pop on hover */
 	}
 
-/* Ensure the H1 doesn't add weird spacing */
+/* Updated positioning for the Logo Link */
 	h1 #logo {
     	display: inline-block;
     	border: none;
+    	padding: 0;
+    
+    /* This moves the logo 10px down and 10px right */
+    	margin-top: 10px;  
+    	margin-left: 10px; 
+    
+    /* Clean up default margins if necessary */
+    	text-decoration: none;
+    	line-height: 0;
+	}
+
+/* Optional: Ensure the H1 container doesn't restrict the move */
+	h1 {
+    	margin: 0;
     	padding: 0;
 	}
 
