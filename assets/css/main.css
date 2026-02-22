@@ -118,18 +118,37 @@ input, select, textarea {
 	}
 
 /* Container */
-/* Logo Image Styling */
-	.logo-img {
-    	max-height: 80px;    /* Adjust height to fit your header */
-    	width: auto;         /* Maintains aspect ratio */
-    	display: block;
-    	margin-bottom: 10px;
-    	transition: transform 0.3s ease;
-	}
+/* Logo Positioning & Style */
+#logo.text-logo {
+    display: inline-block;
+    margin: 10px 0 0 10px; /* Moves logo 10px down and 10px right */
+    padding: 8px 20px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(137, 207, 240, 0.3);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+    transition: all 0.3s ease;
+}
 
-	#logo:hover .logo-img {
-    	transform: scale(1.02); /* Subtle pop on hover */
-	}
+/* Color Coding the Name */
+#logo .rete { color: #89CFF0; } /* Baby Blue */
+#logo .cope { color: #555; }
+#logo .tech { 
+    color: #90EE90; /* Light Green */
+    font-weight: 300; 
+    font-size: 0.9em;
+}
+
+/* Logo Hover Effect (The Glow) */
+#logo.text-logo:hover {
+    transform: scale(1.03);
+    border-color: #90EE90;
+    box-shadow: 0 4px 15px rgba(137, 207, 240, 0.5), 
+                0 0 25px rgba(144, 238, 144, 0.3);
+}
 
 /* Updated positioning for the Logo Link */
 	h1 #logo {
