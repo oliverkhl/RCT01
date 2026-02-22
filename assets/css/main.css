@@ -1490,7 +1490,7 @@ input, select, textarea {
 		}
 
 	.bordered-feature-image {
-		display: block;
+		display: inline-block;
 		background: #fff url("images/bg04.png");
 		margin: 0 0 1.5em 0;
 		outline: 0;
