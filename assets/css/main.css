@@ -1547,19 +1547,26 @@ input, select, textarea {
 /* Header */
 
 	.current {
-    	/* Brighter blue glow on hover */
-		display: inline-block;
-		border-radius: 50px;
-		padding: 4px 8px;
-		}
+    display: inline-block;
+    border-radius: 50px;
+    padding: 4px 12px;
+    transition: all 0.3s ease;
+    /* Transparent background and border by default */
+    background: transparent;
+    border: 1px solid transparent; 
+	}
+
 	.current:hover {
-    	/* Brighter blue glow on hover */
-		display: inline-block;
-    	box-shadow: 0 0 30px rgba(137, 207, 240, 0.7); 
-    	transform: scale(0.98);    /* Grows slightly when hovered */
-    	cursor: pointer;
-		border-radius: 50px;
-		}
+    /* Only the glow appears here */
+    box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
+                0 0 30px rgba(144, 238, 144, 0.4); 
+    
+    /* Optional: subtle border to define the 'line' shape of the glow */
+    border: 1px solid rgba(137, 207, 240, 0.3);
+    
+    transform: scale(1.02);
+    cursor: pointer;
+	}
 	#header {
 		position: relative;
 		background: #3B4346 url("images/bg01.jpg");
