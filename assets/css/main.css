@@ -1556,27 +1556,30 @@ input, select, textarea {
 	}
 /* Header */
 
-	.current {
-    display: inline-block;
-    border-radius: 25px;
-    padding: 5px 5px;
-    transition: all 0.3s ease;
-    /* Transparent background and border by default */
-    background: transparent;
-    border: 1px solid transparent; 
+	/* All Nav Links - Resting State */
+	#nav a {
+    	display: inline-block;
+    	padding: 6px 15px;
+    	border-radius: 50px;
+    	transition: all 0.3s ease;
+    	text-decoration: none;
+    	border: 1px solid transparent; /* Keeps spacing consistent */
 	}
 
-	.current:hover {
-    /* Only the glow appears here */
-    box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
-                0 0 30px rgba(144, 238, 144, 0.4); 
+	/* The Glow - Only on Hover */
+	#nav a:hover {
+    	/* Gradient Background */
+    	background: linear-gradient(135deg, #89CFF0, #90EE90);
+    	color: #fff !important;
     
-    /* Optional: subtle border to define the 'line' shape of the glow */
-    border: 1px solid rgba(137, 207, 240, 0.3);
+    	/* Baby Blue and Light Green Shadow */
+    	box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
+                	0 0 30px rgba(144, 238, 144, 0.4);
     
-    transform: scale(1.02);
-    cursor: pointer;
+    	transform: scale(1.05); /* Professional pop */
+    	cursor: pointer;
 	}
+	
 	#header {
 		position: relative;
 		background: #3B4346 url("images/bg01.jpg");
