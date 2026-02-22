@@ -1474,8 +1474,8 @@ input, select, textarea {
 		}
 
 		.check-list li:last-child {
-			padding-bottom: 0 !important;
-			border-bottom: 10px !important;
+			padding-bottom: 10px !important;
+			border-bottom: 0 !important;
 		}
 
 	.feature-image {
