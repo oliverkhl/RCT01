@@ -1503,7 +1503,10 @@ input, select, textarea {
 			width: 100%;
 		}
 		.bordered-feature-image:hover {
-    	transform: scale(1.02); /* Subtle pop on hover */
+    	/* Brighter blue glow on hover */
+    	box-shadow: 0 0 30px rgba(137, 207, 240, 0.7); 
+    	transform: scale(1.05);    /* Grows slightly when hovered */
+    	cursor: pointer;
 		}
 
 	.button-large {
