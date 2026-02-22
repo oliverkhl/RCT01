@@ -1475,7 +1475,7 @@ input, select, textarea {
 
 		.check-list li:last-child {
 			padding-bottom: 0 !important;
-			border-bottom: 0 !important;
+			border-bottom: 10px !important;
 		}
 
 	.feature-image {
@@ -1545,6 +1545,12 @@ input, select, textarea {
 	}
 /* Header */
 
+	.current:hover {
+    	/* Brighter blue glow on hover */
+    	box-shadow: 0 0 30px rgba(137, 207, 240, 0.7); 
+    	transform: scale(1.05);    /* Grows slightly when hovered */
+    	cursor: pointer;
+		}
 	#header {
 		position: relative;
 		background: #3B4346 url("images/bg01.jpg");
