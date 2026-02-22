@@ -1494,6 +1494,7 @@ input, select, textarea {
 		background: #fff url("images/bg04.png");
 		margin: 0 0 1.5em 0;
 		outline: 0;
+		border-radius: 25px;
 	}
 
 		.bordered-feature-image img {
@@ -1552,7 +1553,7 @@ input, select, textarea {
     	transform: scale(1.05);    /* Grows slightly when hovered */
     	cursor: pointer;
 		border-radius: 50px;
-		padding: 2px 5px;
+		padding: 4px 8px;
 		}
 	#header {
 		position: relative;
