@@ -1503,7 +1503,8 @@ input, select, textarea {
 		}
 		.bordered-feature-image:hover {
     	/* Brighter blue glow on hover */
-    	box-shadow: 0 0 30px rgba(137, 207, 240, 0.7); 
+    	box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
+                	0 0 30px rgba(144, 238, 144, 0.4); 
     	transform: scale(1.05);    /* Grows slightly when hovered */
     	cursor: pointer;
 		transition: all 0.3s ease;
@@ -1535,8 +1536,9 @@ input, select, textarea {
 
 	.button-large:hover {
     	background-color: #77bedf; /* Slightly deeper blue on hover */
-    	/* Brighter blue glow on hover */
-    	box-shadow: 0 0 30px rgba(137, 207, 240, 0.7); 
+    	/* Brighter blue glow on hover */    
+		box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
+                	0 0 30px rgba(144, 238, 144, 0.4); 
     	transform: scale(1.05);    /* Grows slightly when hovered */
     	cursor: pointer;
 	}
@@ -1548,8 +1550,8 @@ input, select, textarea {
 
 	.current {
     display: inline-block;
-    border-radius: 50px;
-    padding: 4px 12px;
+    border-radius: 25px;
+    padding: 5px 12px;
     transition: all 0.3s ease;
     /* Transparent background and border by default */
     background: transparent;
