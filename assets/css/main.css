@@ -1554,6 +1554,7 @@ input, select, textarea {
     	cursor: pointer;
 		border-radius: 50px;
 		background-color: #89CFF0;
+		padding: 25px 50px;
 		}
 	#header {
 		position: relative;
