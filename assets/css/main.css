@@ -138,8 +138,8 @@ input, select, textarea {
     	padding: 0;
     
     /* This moves the logo 10px down and 10px right */
-    	margin-top: 10px;  
-    	margin-left: 10px; 
+    	margin-top: 100px;  
+    	margin-left: 100px; 
     
     /* Clean up default margins if necessary */
     	text-decoration: none;
