@@ -1608,6 +1608,9 @@ input, select, textarea {
 			padding-right: 1em;
 			margin: 0 0 1em 0;
 		}
+		#banner:hover {
+    	transform: scale(1.02); /* Subtle pop on hover */
+	}
 
 /* Features */
 
