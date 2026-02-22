@@ -1490,49 +1490,57 @@ input, select, textarea {
 		}
 
 	.bordered-feature-image {
-		display: inline-block;
-		background: #fff url("images/bg04.png");
-		margin: 0 0 1.5em 0;
-		outline: 0;
-		border-radius: 25px;
+    display: inline-block;
+    margin: 0 0 1.5em 0;
+    outline: 0;
+    
+    /* Apply the pill shape to the container */
+    border-radius: 25px; 
+    
+    /* Crucial: prevents image corners from overlapping the curves */
+    overflow: hidden; 
+    
+    transition: all 0.3s ease;
 	}
 
 		.bordered-feature-image img {
-			display: block;
-			width: 100%;
-		}
-		.bordered-feature-image:hover {
-    	/* Brighter blue glow on hover */
-    	box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
-                	0 0 30px rgba(144, 238, 144, 0.4); 
-    	transform: scale(1.05);    /* Grows slightly when hovered */
-    	cursor: pointer;
-		transition: all 0.3s ease;
+    	display: block;
+    	width: 100%;
+    
+    	/* Match the container's radius for a perfect fit */
+    	border-radius: 25px; 
 		}
 
-	.button-large {
-    /* Colors: Updated to Baby Blue */
-    background-color: #89CFF0; /* Classic Baby Blue */
-    color: #ffffff;            /* White text for high contrast */
+		.bordered-feature-image:hover {
+    	box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
+                	0 0 30px rgba(144, 238, 144, 0.4); 
+    	transform: scale(1.05);
+    	cursor: pointer;
+		}
+
+		.button-large {
+    	/* Colors: Updated to Baby Blue */
+    	background-color: #89CFF0; /* Classic Baby Blue */
+    	color: #ffffff;            /* White text for high contrast */
     
-    /* Standout Design */
-    display: inline-block;
-    padding: 25px 50px;        /* Large padding */
-    font-family: 'Roboto', sans-serif; 
-    font-size: 2em;            
-    font-weight: 700;          
-    text-decoration: none;
-    border-radius: 50px;       /* Modern pill shape */
+    	/* Standout Design */
+    	display: inline-block;
+    	padding: 25px 50px;        /* Large padding */
+    	font-family: 'Roboto', sans-serif; 
+    	font-size: 2em;            
+    	font-weight: 700;          
+    	text-decoration: none;
+    	border-radius: 50px;       /* Modern pill shape */
     
-    /* Standout Effects */
-    /* Subtle blue glow */
-    box-shadow: 0 0 20px rgba(137, 207, 240, 0.4); 
-    text-transform: uppercase;  
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
-    border: none;
-    outline: 0;
-	}
+    	/* Standout Effects */
+    	/* Subtle blue glow */
+    	box-shadow: 0 0 20px rgba(137, 207, 240, 0.4); 
+    	text-transform: uppercase;  
+    	letter-spacing: 1px;
+    	transition: all 0.3s ease;
+    	border: none;
+    	outline: 0;
+		}
 
 	.button-large:hover {
     	background-color: #77bedf; /* Slightly deeper blue on hover */
