@@ -1546,6 +1546,12 @@ input, select, textarea {
 	}
 /* Header */
 
+	.current {
+    	/* Brighter blue glow on hover */
+		display: inline-block;
+		border-radius: 50px;
+		padding: 4px 8px;
+		}
 	.current:hover {
     	/* Brighter blue glow on hover */
 		display: inline-block;
@@ -1553,7 +1559,6 @@ input, select, textarea {
     	transform: scale(0.98);    /* Grows slightly when hovered */
     	cursor: pointer;
 		border-radius: 50px;
-		padding: 4px 8px;
 		}
 	#header {
 		position: relative;
