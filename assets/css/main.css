@@ -1559,7 +1559,7 @@ input, select, textarea {
 	.current {
     display: inline-block;
     border-radius: 25px;
-    padding: 5px 12px;
+    padding: 5px 5px;
     transition: all 0.3s ease;
     /* Transparent background and border by default */
     background: transparent;
