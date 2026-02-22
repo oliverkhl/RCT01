@@ -128,7 +128,7 @@ input, select, textarea {
     border: 1px solid rgba(137, 207, 240, 0.3);
     text-decoration: none;
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 3rem;
     letter-spacing: -1px;
     transition: all 0.3s ease;
 }
@@ -139,7 +139,7 @@ input, select, textarea {
 #logo .tech { 
     color: #90EE90; /* Light Green */
     font-weight: 300; 
-    font-size: 0.9em;
+    font-size: 3em;
 }
 
 /* Logo Hover Effect (The Glow) */
