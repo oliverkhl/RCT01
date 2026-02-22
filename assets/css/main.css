@@ -1552,8 +1552,7 @@ input, select, textarea {
     	transform: scale(1.05);    /* Grows slightly when hovered */
     	cursor: pointer;
 		border-radius: 50px;
-		background-color: #89CFF0;
-		padding: 5px 10px;
+		padding: 2px 5px;
 		}
 	#header {
 		position: relative;
