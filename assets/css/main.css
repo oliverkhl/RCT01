@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 /*
 	Halcyonic by HTML5 UP
@@ -118,58 +117,6 @@ input, select, textarea {
 	}
 
 /* Container */
-/* Logo Positioning & Style */
-#logo.text-logo {
-    display: inline-block;
-    margin: 10px 0 0 10px; /* Moves logo 10px down and 10px right */
-    padding: 8px 20px;
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(137, 207, 240, 0.3);
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 3rem;
-    letter-spacing: -1px;
-    transition: all 0.3s ease;
-}
-
-/* Color Coding the Name */
-#logo .rete { color: #89CFF0; } /* Baby Blue */
-#logo .cope { color: #555; }
-#logo .tech { 
-    color: #90EE90; /* Light Green */
-    font-weight: 300; 
-    font-size: 3em;
-}
-
-/* Logo Hover Effect (The Glow) */
-#logo.text-logo:hover {
-    transform: scale(1.03);
-    border-color: #90EE90;
-    box-shadow: 0 4px 15px rgba(137, 207, 240, 0.5), 
-                0 0 25px rgba(144, 238, 144, 0.3);
-}
-
-/* Updated positioning for the Logo Link */
-	h1 #logo {
-    	display: inline-block;
-    	border: none;
-    	padding: 0;
-    
-    /* This moves the logo 10px down and 10px right */
-    	margin-top: 50px;  
-    	margin-left: 50px; 
-    
-    /* Clean up default margins if necessary */
-    	text-decoration: none;
-    	line-height: 0;
-	}
-
-/* Optional: Ensure the H1 container doesn't restrict the move */
-	h1 {
-    	margin: 0;
-    	padding: 0;
-	}
 
 	.container {
 		margin: 0 auto;
@@ -1509,91 +1456,59 @@ input, select, textarea {
 		}
 
 	.bordered-feature-image {
-    display: inline-block;
-    margin: 0 0 1.5em 0;
-    outline: 0;
-    
-    /* Apply the pill shape to the container */
-    border-radius: 25px; 
-    
-    /* Crucial: prevents image corners from overlapping the curves */
-    overflow: hidden; 
-    
-    transition: all 0.3s ease;
+		display: block;
+		background: #fff url("images/bg04.png");
+		padding: 10px;
+		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+		margin: 0 0 1.5em 0;
+		outline: 0;
 	}
 
 		.bordered-feature-image img {
-    	display: block;
-    	width: 100%;
-    
-    	/* Match the container's radius for a perfect fit */
-    	border-radius: 25px; 
+			display: block;
+			width: 100%;
 		}
 
-		.bordered-feature-image:hover {
-    	box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
-                	0 0 30px rgba(144, 238, 144, 0.4); 
-    	transform: scale(1.05);
-    	cursor: pointer;
-		}
-
-		.button-large {
-    	/* Colors: Updated to Baby Blue */
-    	background-color: #89CFF0; /* Classic Baby Blue */
-    	color: #ffffff;            /* White text for high contrast */
-    
-    	/* Standout Design */
-    	display: inline-block;
-    	padding: 25px 50px;        /* Large padding */
-    	font-family: 'Roboto', sans-serif; 
-    	font-size: 2em;            
-    	font-weight: 700;          
-    	text-decoration: none;
-    	border-radius: 50px;       /* Modern pill shape */
-    
-    	/* Standout Effects */
-    	/* Subtle blue glow */
-    	box-shadow: 0 0 20px rgba(137, 207, 240, 0.4); 
-    	text-transform: uppercase;  
-    	letter-spacing: 1px;
-    	transition: all 0.3s ease;
-    	border: none;
-    	outline: 0;
-		}
-
-	.button-large:hover {
-    	background-color: #77bedf; /* Slightly deeper blue on hover */
-    	/* Brighter blue glow on hover */    
-		box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
-                	0 0 30px rgba(144, 238, 144, 0.4); 
-    	transform: scale(1.05);    /* Grows slightly when hovered */
-    	cursor: pointer;
+	.button-large {
+		background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
+		background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
+		background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
+		background-image: linear-gradient(top, #ed391b, #ce1a00);
+		display: inline-block;
+		background-color: #ed391b;
+		color: #fff;
+		text-decoration: none;
+		font-size: 1.75em;
+		height: 2em;
+		line-height: 2.125em;
+		font-weight: 300;
+		padding: 0 45px;
+		outline: 0;
+		border-radius: 10px;
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
 	}
 
-	.button-large:active {
-    	transform: scale(0.98);    /* Sinks slightly when clicked */
-	}
+		.button-large:hover {
+			background-image: -moz-linear-gradient(top, #fd492b, #de2a10);
+			background-image: -webkit-linear-gradient(top, #fd492b, #de2a10);
+			background-image: -ms-linear-gradient(top, #fd492b, #de2a10);
+			background-image: linear-gradient(top, #fd492b, #de2a10);
+			background-color: #fd492b;
+			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+		}
+
+		.button-large:active {
+			background-image: -moz-linear-gradient(top, #ce1a00, #ed391b);
+			background-image: -webkit-linear-gradient(top, #ce1a00, #ed391b);
+			background-image: -ms-linear-gradient(top, #ce1a00, #ed391b);
+			background-image: linear-gradient(top, #ce1a00, #ed391b);
+			background-color: #ce1a00;
+			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+		}
+
 /* Header */
-	/* All Nav Links - Resting State */
-	#nav a {
-    	display: inline-block;
-    	padding: 5px 5px;
-    	border-radius: 25px;
-    	transition: all 0.3s ease;
-    	text-decoration: none;
-    	border: 1px solid transparent; /* Keeps spacing consistent */
-	}
 
-	/* The Glow - Only on Hover */
-	#nav a:hover {
-    	/* Baby Blue and Light Green Shadow */
-    	box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
-                	0 0 30px rgba(144, 238, 144, 0.4);
-    
-    	transform: scale(1.05); /* Professional pop */
-    	cursor: pointer;
-	}
-	
 	#header {
 		position: relative;
 		background: #3B4346 url("images/bg01.jpg");
@@ -2107,49 +2022,3 @@ input, select, textarea {
 			}
 
 	}
-
-/* Contact Page Styling */
-#contact-page {
-    padding: 4em 0;
-}
-
-/* Input Fields */
-input[type="text"],
-input[type="email"],
-textarea {
-    border-radius: 10px;
-    border: 1px solid rgba(137, 207, 240, 0.3);
-    transition: all 0.3s ease;
-}
-
-input:focus, 
-textarea:focus {
-    outline: none;
-    border-color: #90EE90; /* Light Green on focus */
-    box-shadow: 0 0 10px rgba(144, 238, 144, 0.3);
-}
-
-/* The Glow Button */
-.button-glow {
-    background: transparent;
-    color: #555;
-    border: 2px solid #89CFF0; /* Baby Blue */
-    border-radius: 50px;
-    padding: 0.75em 2em;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.button-glow:hover {
-    color: #fff;
-    background: linear-gradient(135deg, #89CFF0, #90EE90);
-    border-color: transparent;
-    box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
-                0 0 30px rgba(144, 238, 144, 0.4);
-    transform: scale(1.05);
-}
-
-.contact-list h3 {
-    color: #89CFF0; /* Baby Blue headers */
-    margin-bottom: 0.5em;
-}
