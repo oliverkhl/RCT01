@@ -1507,6 +1507,26 @@ input, select, textarea {
 	}
 /* Header */
 
+	/* All Nav Links - Resting State */
+	#nav a {
+    	display: inline-block;
+    	padding: 5px 5px;
+    	border-radius: 25px;
+    	transition: all 0.3s ease;
+    	text-decoration: none;
+    	border: 1px solid transparent; /* Keeps spacing consistent */
+	}
+
+	/* The Glow - Only on Hover */
+	#nav a:hover {
+    	/* Baby Blue and Light Green Shadow */
+    	box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
+                	0 0 30px rgba(144, 238, 144, 0.4);
+    
+    	transform: scale(1.05); /* Professional pop */
+    	cursor: pointer;
+	}
+
 	#header {
 		position: relative;
 		background: #3B4346 url("images/bg01.jpg");
