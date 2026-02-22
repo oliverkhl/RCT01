@@ -1456,17 +1456,32 @@ input, select, textarea {
 		}
 
 	.bordered-feature-image {
-		display: block;
-		background: #fff url("images/bg04.png");
-		padding: 10px;
-		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
-		margin: 0 0 1.5em 0;
-		outline: 0;
+    display: inline-block;
+    margin: 0 0 1.5em 0;
+    outline: 0;
+    
+    /* Apply the pill shape to the container */
+    border-radius: 25px; 
+    
+    /* Crucial: prevents image corners from overlapping the curves */
+    overflow: hidden; 
+    
+    transition: all 0.3s ease;
 	}
 
 		.bordered-feature-image img {
-			display: block;
-			width: 100%;
+    	display: block;
+    	width: 100%;
+    
+    	/* Match the container's radius for a perfect fit */
+    	border-radius: 25px; 
+		}
+
+		.bordered-feature-image:hover {
+    	box-shadow: 0 4px 15px rgba(137, 207, 240, 0.6), 
+                	0 0 30px rgba(144, 238, 144, 0.4); 
+    	transform: scale(1.05);
+    	cursor: pointer;
 		}
 
 	.button-large {
