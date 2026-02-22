@@ -1574,20 +1574,6 @@ input, select, textarea {
     	transform: scale(0.98);    /* Sinks slightly when clicked */
 	}
 /* Header */
-	#header {
-    	position: fixed;      /* Fixes it to the top */
-    	top: 0;
-    	left: 0;
-    	width: 100%;          /* Ensures it spans the full width */
-    	z-index: 10000;       /* Keeps it above all other content */
-    	background: #fff;     /* Ensure there is a background so content doesn't bleed through */
-    	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Adds a subtle separation line */
-	}
-
-/* Adjust the Page Wrapper so content doesn't hide behind the header */
-	#page-wrapper {
-    	padding-top: 100px;   /* Adjust this value based on your header's actual height */
-	}
 	/* All Nav Links - Resting State */
 	#nav a {
     	display: inline-block;
