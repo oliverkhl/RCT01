@@ -1550,7 +1550,7 @@ input, select, textarea {
     	/* Brighter blue glow on hover */
 		display: inline-block;
     	box-shadow: 0 0 30px rgba(137, 207, 240, 0.7); 
-    	transform: scale(1.05);    /* Grows slightly when hovered */
+    	transform: scale(0.98);    /* Grows slightly when hovered */
     	cursor: pointer;
 		border-radius: 50px;
 		padding: 4px 8px;
