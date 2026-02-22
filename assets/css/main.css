@@ -1502,6 +1502,9 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
+		.bordered-feature-image:hover {
+    	transform: scale(1.02); /* Subtle pop on hover */
+		}
 
 	.button-large {
     /* Colors: Updated to Baby Blue */
